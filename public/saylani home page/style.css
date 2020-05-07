@@ -1,0 +1,240 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#316dc3;
+}
+.header img{
+    padding: 20px 5px ;
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+.header p{
+    margin: 20px 50px 20px 50px;
+    font-size: 11pt;
+    color: white;
+}
+.header button{
+    margin: 20px 5px;
+    padding: 10px 10px;
+    border: none;
+    background-color: rgb(79, 114, 27);
+    font-size: 7pt;
+    color:white;
+}
+.header button:hover{
+    background-color:rgb(134, 177, 71);
+    color:white;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(247,248,250);
+}
+.logo{
+    width: 200px;
+    padding: 15px 150px 1px 20px;
+}
+.navbar ul{
+    text-align: center;
+}
+.navbar li{
+    float: right;
+    padding: 10px 15px 10px 15px;
+    font-size: 10pt;
+    list-style-type: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbar li:hover{
+    background-color: #316dc3;
+    color: white;
+    border-radius: 50px;
+}
+.Banner{
+    padding: 20px 30px;
+    width: 100%;
+    height:100%;
+}
+.running-text{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 1.5em;
+    width: auto;
+    color: white;
+    background-color: #316ab9e0;
+    overflow: hidden;
+}
+.running-text p{
+    margin-top: 2px;
+}
+.intro{
+    background-color: rgb(247,248,250);
+    text-align: center;
+}
+.intro h1{
+    font-size: 28pt;
+    padding-top: 70px;
+    text-align: center;
+}
+.intro img{
+    margin-top: -15px;
+}
+.intro p{
+    text-align: justify;
+    font-size: 11pt;
+    line-height: 25px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 140px;
+}
+.statistics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.statisticsh1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -240px;
+    color: white;
+}
+.statisticsp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -30px;
+    color: white;
+    font-weight: bold;
+}
+.statistics img{
+    margin: 40px 130px;
+    width: 40px;
+    height: 40px;
+}
+.doing{
+    background-color:  rgb(247,248,250);
+    text-align: center;
+}
+.doing h1{
+    font-size: 28pt;
+    text-align: center;
+}
+.doing img{
+    margin-top: -15px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.one, .two, .three, .four, .five, .six{
+    margin: 10px 10px;
+    height: 80px;
+    width: 280px;
+    padding: 50px 40px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;}
+}
+.one img, .two img, .three img, .four img, .five img, .six img{
+    width: 70px;
+    height: 70px;
+}
+.one p, .two p, .three p, .four p, .five p, .six p{
+    color: #316dc3;
+    font-weight: bold;
+}
+.super{
+    display: inline-flex;
+}
+.left{
+    margin: 0px 10px;
+    padding: 20px 20px;
+    width: 65%;
+}
+.left h1{
+    font-size: 20pt;
+    color:#316dc3;
+}
+.left div{
+    background-color: rgb(247,248,250);
+    display: inline-flex;
+    width: 350px;
+    height: 60px;
+    margin: 20px 10px;
+}
+.left img{
+    padding: 10px 10px;
+    width: 40px;
+    height: 40px;
+}
+.right{
+    float: right;
+    height: 300px;
+    overflow-y: scroll;
+    width: 32%;
+    padding: 20px 20px;
+}
+.right h1{
+    font-size: 20pt;
+    color:#316dc3;
+}
+.image-gellary{
+    padding-top: 15px;
+    background-color:  rgb(247,248,250);
+    text-align: center;
+}
+.hazrat-images img{
+    width: 230px;
+}
+.footer{
+    margin-top: 250px;
+    padding: 30px 5px;
+    display: flex;
+    background-color: rgb(37, 42, 48);
+}
+.address{
+    width: 400px;
+    padding: 15px 20px;
+    font-size:10pt;
+    color: rgb(168, 170, 168);
+}
+.address ul{
+    list-style-image: url("images/phone-16.png");
+}
+li.global{
+    list-style-image: url("images/globe-16.png");
+}
+li.mail{
+    list-style-image: url("images/mail-16.png");
+}
+.links{
+    font-size: 10pt;
+    width: 350px;
+    padding: 15px 20px;
+    color:rgb(247,248,250);
+}
+.contact{
+    font-size: 10pt;
+    width: 350px;
+    padding: 15px 20px;
+    color: rgb(247,248,250);
+}
+.copyright{
+    margin-top: -16px;
+    padding: 10px 10px;
+    background-color: rgb(49,109,217); 
+    color: white;
+    font-size: 10pt;
+}
