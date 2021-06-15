@@ -1,0 +1,37 @@
+table{
+    background-color: honeydew;
+    width: 220px;
+    display: flex;
+    margin-top: 30px !important;
+    border: grey 1px solid;
+
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    margin-bottom:2px ;
+
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0px 2px;
+}
+.clrbtn{
+    width: 158px;
+}
+.back-btn{
+    width: 50px;
+}
+
+.equalbtn{
+    width: 104px !important;
+}
+input{
+    line-height: 40px;
+    background-color: none;
+    width: 212px;
+}

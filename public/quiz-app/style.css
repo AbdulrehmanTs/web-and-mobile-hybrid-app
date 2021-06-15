@@ -1,0 +1,37 @@
+body{
+    background-image: radial-gradient(white, green);
+}
+
+.container{
+    margin: auto;
+    width: 800px;
+    height: 600px;
+    background: beige;  
+}
+
+.header{
+    height: 60px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.quiz{
+    padding: 30px;
+}
+.quiz ul li{
+    font-size: 18px;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid grey;
+    list-style-type: none;
+}
+button{
+    margin-left: 150px;
+    padding: 10px;
+    width: 200px;
+    color: white;
+    background: purple;
+    border: 1px green solid;
+    border-radius: 20px;
+}

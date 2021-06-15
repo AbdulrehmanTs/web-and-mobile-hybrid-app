@@ -1,0 +1,43 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+#display{
+    background-image: radial-gradient(purple, yellow);
+    font-size: 8em;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.title{
+    margin: 0;
+    text-align: center;
+    height: 100%;
+    background: seashell;
+}
+.title h1{
+    font-size: 5em;
+}
+.title kbd{
+    font-size: large;
+}
+
+
+@media only screen and (max-width: 800px){
+    #display{
+        font-size: 4em;
+    }
+    .title h1{
+        font-size: 2em;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    #display{
+        font-size: 2em;
+    }
+    .title h1{
+        font-size: 2em;
+    }
+
+}

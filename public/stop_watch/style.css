@@ -1,0 +1,58 @@
+html,body{
+    background-image: linear-gradient(green, white);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+.main {
+    margin: auto;
+    
+}
+.body{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    display: inline;
+    font-size: 10em;
+    text-align: center;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin: 0 30px;
+    height: 50px;
+    width: 100px;
+    background: none;
+    color: #7D3C98;
+    border: 1px solid #7D3C98;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: white;
+    background: #7D3C98;
+    border: 2px solid white;
+}
+
+@media only screen and (max-width: 800px){
+    .input{
+        font-size: 6em;
+    }
+    .button{
+        border-radius: 20px;
+        width: 60px;
+    }
+
+}
+
+
+
+
+

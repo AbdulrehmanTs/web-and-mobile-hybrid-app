@@ -1,0 +1,15 @@
+
+.cards{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.veg-Head{
+    text-align: center;
+    border-width: 1px !important;
+}
+.veg-Head h3{
+    font-size: 30pt; 
+    color: green;
+    font-weight: bolder;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Welcom to the QUIZ APP</h2>
+            <h2 onload="setInterval" id="time">0 / 20s</h2>
+        </div>
+
+        <div class="quiz">
+            <h3 class="q1">Q1: Which attribute specifies the character encoding for the HTML document?</h3>
+            <ul id="answer">
+                <li><input name="answer" id="q1a1" type="radio" >class</li>
+                <li><input name="answer" id="q1a2" type="radio" >charset</li>
+                <li><input name="answer" id="q1a3" type="radio" >section</li>
+                <li><input name="answer" id="q1a4" type="radio" >unicode</li>
+            </ul>
+                <button align="center" onclick="getAnswer()">submit</button>
+        </div>
+    </div>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

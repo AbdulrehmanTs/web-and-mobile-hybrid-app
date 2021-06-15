@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Regidstraion Form</title>
+    <style>
+        form{
+            background-color: blueviolet;
+            color: white;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            width: 1200px;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        h1{
+            text-decoration: underline;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            color:slateblue;
+        }
+        table{
+            background-color: blueviolet;
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="Saylani-logo.png" alt="saylanilogo">
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form action="action_page.html" target="_blank">
+        <table align="center" width=50>
+            <tr  width=20 height="40">
+                <td>
+                    <label for="fname" > First Name</label>
+                </td>
+                <td>
+                    <input type="text" name="fname" size="20" placeholder="First Name">(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            <tr  width=20 height="40">
+                <td>
+                    <label for="Lname">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" name="Lname" size="20" placeholder="Last Name">(max 30 characters a-z and A-Z)
+                </td>
+            </tr>
+            <tr  width=20 height="40">
+                <td>
+                    <label for="birthdate"> Date Of Birth:</label>
+                </td>
+                <td>
+                    <select name="day" id="day">
+                        <option value="Day" selected>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                    </select>
+                    <select name="month" id="month">
+                        <option value="Month" selected>Month</option>
+                        <option value="January">January</option>
+                        <option value="Fabruary">Fabruary</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="September">September</option>
+                        <option value="Octuber">Octuber</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>             
+                    <select name="year" id="year">
+                        <option value="year" selected>Year</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2009">2008</option>
+                        <option value="2009">2007</option>
+                        <option value="2009">2006</option>
+                        <option value="2009">2005</option>
+                        <option value="2009">2004</option>
+                        <option value="2009">2003</option>
+                        <option value="2009">2002</option>
+                        <option value="2009">2001</option>
+                        <option value="2009">2000</option>
+                        <option value="2009">1999</option>
+                        <option value="2009">1998</option>
+                        <option value="2009">1997</option>
+                        <option value="2009">1996</option>
+                        <option value="2009">1995</option>
+                    </select>
+                </td>
+            </tr>
+            <tr width=20 height="40">
+                <td><label for="email id">EMAIL ID</label></td>
+                <td><input type="email" name="email id" size="20" placeholder="Enter Email"></td>
+            </tr>
+            <tr   width=20 height="40">
+                <td><label for="mobile number">MOBILE NUMBER</label></td>
+                <td><input type="number" name="mobile number" size="20"  placeholder="Mobile Number">(10 digit number)</td>
+            </tr>
+            <tr width=20 height="40">
+                <td><label for="gender">GENDER</label></td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" >
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender">
+                </td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="address">ADDRESS</label></td>
+                <td><textarea name="address" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="city">CITY</label></td>
+                <td><input type="text" name="city" size="20" placeholder="City"></td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="pin code">PIN CODE</label></td>
+                <td><input type="number" name="pin code" size="20" placeholder="Pin Code"></td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="state">STATE</label></td>
+                <td><input type="text" name="state" size="20" placeholder="State"></td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="country">COUNTRY</label></td>
+                <td><input type="text" name="country" size="20" placeholder="Country"></td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="hobbies">HOBBIES</label></td>
+                <td>
+                    <label for="drawind">Drawing</label>
+                    <input type="checkbox" id="drawing" name="drawing" >
+                    <label for="Singing">Singing</label>
+                    <input type="checkbox" id="Singing" name="Singing">
+                    <label for="Dancing">Dancing</label>
+                    <input type="checkbox" id="Dancing" name="Dancing">
+                    <label for="Sketching">Sketching</label>
+                    <input type="checkbox" id="Sketching" name="Sketching">
+                    <label for="Others">Others</label>
+                    <input type="checkbox" id="Others" name="Others">
+                    <input type="text" id="Others" name="Others">
+                </td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="qualification">QUALIFICATION</label></td>
+                <td>
+                    <table>
+                        <tr  width=20 height="40">
+                            <th style="text-align: center;" >SI.No</th>
+                            <th style="text-align: center;" >Examination</th>
+                            <th style="text-align: center;" >Board</th>
+                            <th style="text-align: center;" >Percentage</th>
+                            <th style="text-align: center;" >Year Of Passing</th>
+                        </tr>
+                        <tr  width=20 height="40">
+                            <td>1</td>
+                            <td>Class X</td>
+                            <td><input type="text" id="Board" name="Board"></td>
+                            <td><input type="text" id="Percentage" name="Percentage"></td>
+                            <td><input type="text" id="Year Of Passing" name="Year Of Passing"></td>
+                        </tr>
+                        <tr  width=20 height="40">
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><input type="text" id="Board" name="Board"></td>
+                            <td><input type="text" id="Percentage" name="Percentage"></td>
+                            <td><input type="text" id="Year Of Passing" name="Year Of Passing"></td>
+                        </tr>
+                        <tr  width=20 height="40">
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><input type="text" id="Board" name="Board"></td>
+                            <td><input type="text" id="Percentage" name="Percentage"></td>
+                            <td><input type="text" id="Year Of Passing" name="Year Of Passing"></td>
+                        </tr>
+                        <tr  width=20 height="40">
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><input type="text" id="Board" name="Board"></td>
+                            <td><input type="text" id="Percentage" name="Percentage"></td>
+                            <td><input type="text" id="Year Of Passing" name="Year Of Passing"></td>
+                        </tr>
+                        <tr  width=20 height="40">
+                            <th></th>
+                            <th></th>
+                            <th style="text-align: center;" >(10 char max)</th>
+                            <th style="text-align: center;" >(Upto 2 decimal</th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr  width=20 height="40">
+                <td><label for="courses applied for">COURSES APPLIED FOR</label></td>
+                <td>
+                    <label for="BCA">BCA</label>
+                    <input type="radio" id="BCA" name="courses applied for" >
+                    <label for="B.Com">B.Com</label>
+                    <input type="radio" id="B.Com" name="courses applied for">
+                    <label for="B.Sc">B.Sc</label>
+                    <input type="radio" id="B.Sc" name="courses applied for" >
+                    <label for="B.A">B.A</label>
+                    <input type="radio" id="B.A" name="courses applied for">
+                </td>
+            </tr>
+        </table>
+        <div>
+            <input type="submit" id="submit">
+            <input type="reset" id="reset">
+        </div>
+    </form>
+</body>
+</html>
